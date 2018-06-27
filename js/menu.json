@@ -1,0 +1,112 @@
+
+{
+    "Menus":[
+
+    {
+        "Text": "Home",
+        "URL": "/Home/Index"
+    },
+    {
+        "Text": "Products",
+        "URL": "/Products/Index",
+        "SubMenus":[
+            {
+                "Text": "CRM",
+                "URL": "/Products/CRMs/Index"
+            },
+            {
+                "Text": "LMS",
+                "URL": "/Products/LMSs/Index"
+            },
+            {
+                "Text": "Financial",
+                "URL": "/Products/Financial/Index",
+                "SubMenus":[
+                    {
+                        "Text": "For Business",
+                        "URL": "/Products/Financial/Business"
+                    },
+                    {
+                        "Text": "For Personal Use",
+                        "URL": "/Products/Financial/Personal"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "Text": "Services",
+        "URL": "/Services/Index",
+        "SubMenus": [
+            {
+                "Text": "Financial",
+                "URL": "/Services/Financial"
+            },
+            {
+                "Text": "IT",
+                "URL": "/Services/IT",
+                "SubMenus":[
+                    {
+                        "Text": "Application Development",
+                        "URL": "/Services/IT/AppDev",
+                        "SubMenus": [
+                            {
+                                "Text": "Web",
+                                "URL": "/Services/IT/AppDev/Web"
+                            },
+                            {
+                                "Text": "Mobile",
+                                "URL": "/Services/IT/AppDev/Mobile"
+                            },
+                            {
+                                "Text": "Cloud",
+                                "URL": "/Services/IT/AppDev/Cloud",
+                                "SubMenus": [
+                                    {
+                                        "Text": "Azure",
+                                        "URL": "/Services/IT/AppDev/Cloud/Azure"
+                                    },
+                                    {
+                                        "Text": "Foundary",
+                                        "URL": "/Services/IT/AppDev/Cloud/Foundry"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Text": "Network Infrastructure",
+                        "URL": "/Services/IT/Networking",
+                        "SubMenus":[
+                            {
+                                "Text" :"Email Services",
+                                "URL" : "/Services/IT/Networking/Email"
+                            },
+                            {
+                                "Text" : "Active Directory",
+                                "URL" : "/Services/IT/Networking/AD"
+                            }
+                        ]
+                    },
+                    {
+                        "Text": "Help Desk & Support",
+                        "URL": "/Services/IT/Support"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Text": "About Us",
+        "URL": "/AboutUs/Index"
+    },
+    {
+        "Text": "Contact Us",
+        "URL": "/ContactUs/Index"
+    },
+    {
+        "Text": "Login",
+        "URL": "/SignIn/Index"
+    }
+]}
